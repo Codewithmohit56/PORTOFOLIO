@@ -1,1 +1,550 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Kumar - Computer Science Student Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <!-- <span class="logo-text">MK</span> -->
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div id="particles-js" class="particles-bg" aria-hidden="true"></div>
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Hi, I'm <span class="highlight">Mohit Kumar</span> 👋
+                        </h1>
+                        <div class="hero-subtitle">
+                            <span class="typing-text">Frontend Developer</span>
+                            <span class="typing-cursor"></span>
+                        </div>
+                        <p class="hero-description">
+                            A passionate Computer Science student crafting beautiful, functional web experiences with modern technologies.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#projects" class="btn btn-primary">View My Projects</a>
+                            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        </div>
+                        <div class="hero-social">
+                            <a href="#" class="social-icon" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-icon" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-icon" title="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon" title="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-image">
+                            <img src="MohitKumar1.jpeg" alt="Mohit Kumar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about fade-in">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a Computer Science student with a passion for building elegant and efficient digital solutions. 
+                            With a strong foundation in both frontend and backend technologies, and also AI & ML. I love transforming ideas into 
+                            interactive web experiences that users enjoy.
+                        </p>
+                        <p>
+                            My journey into tech started with curiosity about how websites work, and it has evolved into a 
+                            deep interest in creating responsive, accessible, and user-friendly applications. I'm constantly 
+                            learning new technologies and best practices in web development.
+                        </p>
+                        <p>
+                            When I'm not coding, you can find me contributing to open-source projects, exploring new frameworks, 
+                            or sharing knowledge with the developer community.
+                        </p>
+                        <a href="#" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Years of Learning</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Dedication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills fade-in">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                
+                <div class="skills-grid">
+                    <!-- Frontend -->
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-palette"></i> Frontend
+                        </h3>
+                        <div class="skills-badges">
+                            <span class="skill-badge">HTML5</span>
+                            <span class="skill-badge">CSS3</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">React</span>
+                            <span class="skill-badge">Vue.js</span>
+                            <span class="skill-badge">Responsive Design</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-server"></i> Backend
+                        </h3>
+                        <div class="skills-badges">
+                            <span class="skill-badge">Node.js</span>
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">Express.js</span>
+                            <span class="skill-badge">MongoDB</span>
+                            <span class="skill-badge">SQL</span>
+                            <span class="skill-badge">REST APIs</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Others -->
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-wrench"></i> Tools & Others
+                        </h3>
+                        <div class="skills-badges">
+                            <span class="skill-badge">Git & GitHub</span>
+                            <span class="skill-badge">VS Code</span>
+                            <span class="skill-badge">Docker</span>
+                            <span class="skill-badge">Figma</span>
+                            <span class="skill-badge">Linux</span>
+                            <span class="skill-badge">Webpack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects fade-in">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop" alt="Project 1">
+                            <div class="project-overlay">
+                                <span class="project-view">View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-Commerce Platform</h3>
+                            <p class="project-description">
+                                A full-stack e-commerce application with product management, cart functionality, and payment integration.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-secondary">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop" alt="Project 2">
+                            <div class="project-overlay">
+                                <span class="project-view">View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">
+                                A collaborative task management tool with real-time updates, team collaboration, and progress tracking.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Tailwind</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-secondary">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=500&h=300&fit=crop" alt="Project 3">
+                            <div class="project-overlay">
+                                <span class="project-view">View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <p class="project-description">
+                                A weather application with real-time data, forecasts, and beautiful visualizations using external APIs.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">OpenWeather API</span>
+                                <span class="tech-tag">Chart.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-secondary">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1611532736579-6b16e2b50449?w=500&h=300&fit=crop" alt="Project 4">
+                            <div class="project-overlay">
+                                <span class="project-view">View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Social Media Dashboard</h3>
+                            <p class="project-description">
+                                An analytics dashboard showing social media metrics with interactive charts and data visualization.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">D3.js</span>
+                                <span class="tech-tag">API Integration</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-secondary">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=300&fit=crop" alt="Project 5">
+                            <div class="project-overlay">
+                                <span class="project-view">View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Blog Platform</h3>
+                            <p class="project-description">
+                                A full-featured blogging platform with markdown support, comments, and user authentication.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Authentication</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-secondary">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1553729784-e91953dec042?w=500&h=300&fit=crop" alt="Project 6">
+                            <div class="project-overlay">
+                                <span class="project-view">View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Chat Application</h3>
+                            <p class="project-description">
+                                A real-time messaging application with user authentication, group chats, and file sharing capabilities.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">React</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-small btn-secondary">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education fade-in">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                
+                <div class="education-timeline">
+                    <div class="education-item">
+                        <div class="education-header">
+                            <div class="education-meta">
+                                <h3 class="education-title">Bachelor of Technology in Computer Science</h3>
+                                <p class="education-school">XYZ Institute of Technology</p>
+                            </div>
+                            <span class="education-year">2021 - 2025</span>
+                        </div>
+                        <p class="education-details">
+                            <strong>CGPA:</strong> 3.8/4.0 | <strong>Coursework:</strong> Data Structures, Algorithms, Web Development, Database Systems, Software Engineering
+                        </p>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="education-header">
+                            <div class="education-meta">
+                                <h3 class="education-title">Full Stack Web Development Bootcamp</h3>
+                                <p class="education-school">Online Learning Platform</p>
+                            </div>
+                            <span class="education-year">2024</span>
+                        </div>
+                        <p class="education-details">
+                            <strong>Completion:</strong> 6 months intensive course covering MERN stack, advanced JavaScript, and modern development practices.
+                        </p>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="education-header">
+                            <div class="education-meta">
+                                <h3 class="education-title">Responsive Web Design Certification</h3>
+                                <p class="education-school">FreeCodeCamp</p>
+                            </div>
+                            <span class="education-year">2023</span>
+                        </div>
+                        <p class="education-details">
+                            <strong>Focus:</strong> HTML5, CSS3, Mobile-first design, and accessibility standards.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact fade-in">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's collaborate and create something amazing together!</p>
+                
+                <div class="contact-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name"
+                                placeholder="Your Name"
+                                required
+                                class="form-input"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email"
+                                placeholder="Your Email"
+                                required
+                                class="form-input"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <textarea 
+                                id="message" 
+                                name="message"
+                                placeholder="Your Message"
+                                rows="5"
+                                required
+                                class="form-textarea"
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+
+                    <div class="contact-info">
+                        <h3>Other Ways to Reach Me</h3>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <a href="mailto:mohit@example.com">mohit@example.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <p class="contact-label">Phone</p>
+                                <a href="tel:+919876543210">+91 9876543210</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <p class="contact-label">Location</p>
+                                <p>New Delhi, India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials">
+                            <h4>Follow Me</h4>
+                            <div class="social-links">
+                                <a href="#" title="GitHub" class="social-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" title="LinkedIn" class="social-link">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" title="Twitter" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" title="Instagram" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Mohit Kumar. All rights reserved. | Designed & Built by Mohit Kumar.</p>
+                <div class="footer-social">
+                    <a href="#" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-widget" aria-live="polite">
+        <button class="chatbot-toggle" aria-label="Open assistant chat">
+            <i class="fas fa-robot"></i>
+        </button>
+        <div class="chatbot-panel" aria-label="AI assistant chat window">
+            <div class="chatbot-header">
+                <div>
+                    <p class="chatbot-title">AI Assistant</p>
+                    <p class="chatbot-subtitle">Ask me about skills, projects, or contact.</p>
+                </div>
+                <button class="chatbot-close" aria-label="Close chat window">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="chatbot-messages" role="log" aria-live="polite"></div>
+            <form class="chatbot-form">
+                <input type="text" class="chatbot-input" placeholder="Ask me something..." aria-label="Chat input" autocomplete="off">
+                <button type="submit" class="chatbot-send" aria-label="Send message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
