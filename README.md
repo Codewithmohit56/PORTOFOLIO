@@ -326,8 +326,8 @@ For issues or questions about specific implementations, refer to the inline comm
 
 ---
 
-**Created for**: Mohit Kumar - Computer Science Student  
-**Last Updated**: 2024  
+**Created By**: Mohit Kumar - Computer Science Student  
+**Last Updated**: 2026  
 **Version**: 1.0.0
 
-Enjoy your new portfolio website! Good luck with your job search! 🚀
+
