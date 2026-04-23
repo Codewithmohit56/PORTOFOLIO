@@ -218,43 +218,8 @@ Add more skill categories or update existing ones in the Skills section
 - Performance optimizations included
 - Accessibility standards followed
 
-## 📝 Form Setup
 
-The contact form currently shows a success message. To send actual emails:
 
-### Simple Option (Using FormSubmit):
-```javascript
-// In script.js, replace the form handler with:
-window.location.href = mailtoLink;
-```
-
-### Advanced Option (Using Backend Service):
-- Set up a backend service (Node.js, Python, etc.)
-- Use FormSubmit.co or EmailJS API
-- Update form submission code with API endpoint
-
-## 🌟 Tips for Customization
-
-1. **Add More Projects**: Copy a project card and modify the content
-2. **Update Timeline**: Add more education items in the same format
-3. **Change Colors**: Only need to change CSS variables at the root
-4. **Add More Skills**: Add skill badges within categories
-5. **Social Links**: Update href attributes with your actual profiles
-6. **Resume Button**: Link to your actual resume file
-
-## 🔗 External Resources
-
-- **Font Awesome Icons**: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/
-- **Unsplash Images**: https://unsplash.com/ (for free stock images)
-- **Google Fonts**: Add custom fonts by importing in CSS
-
-## 📊 Performance Tips
-
-- Images are optimized for web (consider compressing further)
-- Lazy loading ready (code included in JS)
-- Minimal JavaScript - vanilla JS, no frameworks
-- CSS is compiled and optimized
-- Dark mode reduces eye strain and battery usage
 
 ## ⚙️ Deployment
 
@@ -265,23 +230,6 @@ open index.html
 # or
 start index.html
 ```
-
-### Deploy to GitHub Pages
-1. Create a GitHub repository
-2. Push files to main branch
-3. Go to Settings > Pages
-4. Select main branch as source
-5. Your site is live!
-
-### Deploy to Netlify
-1. Connect GitHub repository
-2. Netlify auto-deploys on push
-3. Get a live URL instantly
-
-### Deploy to Vercel
-1. Import GitHub repo
-2. Click Deploy
-3. Get instant live preview
 
 ## 👨‍💻 For Developers
 
@@ -313,20 +261,11 @@ This portfolio template is free to use and modify for personal use.
 
 Feel free to fork, modify, and improve this template for your own use.
 
-## 📧 Support
 
-For issues or questions about specific implementations, refer to the inline comments in the code.
-
-## 🎉 Getting Help
-
-- **CSS Issues**: Check media queries and responsive breakpoints
-- **JavaScript Issues**: Check browser console for errors
-- **Layout Issues**: Verify container widths and remove any inline styling conflicts
-- **Performance Issues**: Use browser DevTools to profile
 
 ---
 
-**Created By**: Mohit Kumar - Computer Science Student  
+**Created By**: Mohit Kumar 
 **Last Updated**: 2026  
 **Version**: 1.0.0
 
