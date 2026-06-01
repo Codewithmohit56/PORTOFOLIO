@@ -122,9 +122,9 @@ portfolio-website/
 #### Update Personal Information
 Open `index.html` and replace placeholders:
 - Name: "Mohit Kumar"
-- Email: "mohit@example.com"
-- Phone: "+91 9876543210"
-- Social media links
+- Email: "kushwaha2905@gmail.com"
+- Phone: "+91 9450100188"
+- Social media links -https://www.linkedin.com/in/mohit-kumar-72a715376
 - Project information
 - Education details
 
